@@ -9,6 +9,7 @@ public class ShortestLongestWord {
         String[] words = splitText(text);
         if (words.length == 0) {
             System.out.println("No words found.");
+            scanner.close();
             return;
         }
 
